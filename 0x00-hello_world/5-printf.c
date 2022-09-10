@@ -2,7 +2,8 @@
 /**
  * main - print string using printf function
  *
- * Description: prints(with proper grammar, but the outcome is a piece of art,)
+ * Description: using the main function
+ * this program prints(with proper grammar, but the outcome is a piece of art,)
  * return 0
  */
 int main(void)
