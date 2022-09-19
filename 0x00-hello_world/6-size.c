@@ -1,22 +1,24 @@
 #include<stdio.h>
 /**
- *main - print sizeof
- *description:  program that prints the size of various types on the computer it is compiled and run on.
+ * main - sizeof
  *
- * return 0
- */
+ * this program prints size of various characters
+ *
+ * return 0;
+ **/
 int main(void)
 {
 	char c;
 	int i;
-	long li;
-	long long lli;
+	long int li;
+	long long int lli;
 	float f;
 
-	printf("size of a char: %ld byte(s)\n", sizeof(c));
-	printf("sizeof an int: %ld bytes(s)\n", sizeof(i));
-	printf("sizeof a long int: %ld bytes(s)\n", sizeof(li));
-	printf("sizeof a long long int :%ld byte(s)\n", sizeof(lli));	
-	printf("sizeof a float :%ld bytes(s)\n", sizeof(f));
+	printf("size of char: %lu byte(s)\n", sizeof(c));
+	printf("size of int: %lu byte(s)\n", sizeof(i));
+	printf("size of long int: %lu byte(s)\n", sizeof(li));
+	printf("size of long long int: %lu byte(s)\n", sizeof(lli));
+	printf("size of float: %lu byte(s)\n", sizeof(f));
+
 	return (0);
 }
